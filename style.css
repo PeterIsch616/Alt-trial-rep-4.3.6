@@ -1,172 +1,26 @@
 @font-face {
-    font-family: Roboto;
-    src: url("fonts/Roboto/Roboto-Regular.ttf");
+  body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
 }
-
-/* Rectangle 1 */
-body {
-position: absolute;
-width: 661px;
-height: 763px;
-
-background: #C4C4C4;
-
-/* Rectangle 2 */
-position: absolute;
-width: 500px;
-height: 61px;
-
-background: #FFFFFF;
-    
-/* Rectangle 3 */
-position: absolute;
-width: 500px;
-height: 220px;
-
-background: #E0E0E0;
-    
-/* Rectangle 4 */
-box-sizing: border-box;
-position: absolute;
-width: 500px;
-height: 44px;
-background: #E3E3E3;
-border: 2px solid #000000;
-    
-/* Rectangle 5 */
-box-sizing: border-box;
-position: absolute;
-width: 500px;
-height: 44px;
-background: #E3E3E3;
-border: 2px solid #000000;
-    
-/* Rectangle 6 */
-box-sizing: border-box;
-position: absolute;
-width: 500px;
-height: 44px;
-background: #65CDF9;
-border: 2px solid #000000;
-    
-/* Rectangle 7 */
-box-sizing: border-box;
-position: absolute;
-width: 500px;
-height: 44px;
-background: #E3E3E3;
-border: 2px solid #000000;
-    
-/* Rectangle 8 */
-box-sizing: border-box;
-position: absolute;
-width: 500px;
-height: 44px;
-background: #E3E3E3;
-border: 2px solid #000000;
-    
-/* Rectangle 9 */
-position: absolute;
-width: 500px;
-height: 304px;
-background: #E6E6E6;
-    
-/* Rectangle 10 */
-box-sizing: border-box;
-position: absolute;
-width: 503px;
-height: 101px;
-background: #E27BEB;
-border: 1px solid #000000;
-    
-/* Rectangle 11 */
-box-sizing: border-box;
-position: absolute;
-width: 503px;
-height: 101px;
-background: #E27BEB;
-border: 1px solid #000000;
-    
-/* Rectangle 12 */
-box-sizing: border-box;
-position: absolute;
-width: 503px;
-height: 101px;
-background: #E27BEB;
-border: 1px solid #000000;
-    
-
-
-.dropdown {
-    margin: 62px 84px 0px 77px;
-    width: 500px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    color: rgb(49, 97, 77);
-    box-sizing: border-box;
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
 }
-
-.dropdown-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 326px;
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
 }
-
-.dropdown input {
-    border: none;
-    font-size: 48px;
-    line-height: 56px;
-    width: 100%;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-}
-
-.dropdown-content {
-    width: 100%;
-    cursor: pointer;
-    font-size: 30px;
-    line-height: 35px;
-    border: 2px solid #000;
-    box-sizing: border-box;
-    background-color: #E3E3E3;
-}
-
-.dropdown-content:hover {
-    background-color: #65CDF9;
-    cursor: pointer;
-}
-
-.chosens {
-    display: flex;
-    flex-direction: column;
-    top: 326px;
-    width: 503px;
-}
-
-.chosen {
-    display: flex;
-    text-align: left;
-    vertical-align: middle;
-    font-size: 24px;
-    padding: 8px 16px;
-    line-height: 28px;
-    border: 1px solid #000;
-    background-color: #E27BEB;
-}
-
-.btn-close {
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-repeat: no-repeat;
-    background-image: url("img/Cross.png");
-    background-color: transparent;
-    background-size: contain;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    width: 42px;
-    height: 38.5px;
-    right: 17px;
+p {
+	margin: 20px 0;
 }
