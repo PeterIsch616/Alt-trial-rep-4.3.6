@@ -267,3 +267,16 @@ height: 38.5px;
 
 border: 4px solid #FF0000;
 transform: matrix(-1, 0, 0, 1, 0, 0);
+
+	
+	table {
+   border: 1px solid grey;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+   border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+td {
+   border: 1px solid grey;
+}
