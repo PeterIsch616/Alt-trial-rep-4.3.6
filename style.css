@@ -1,97 +1,275 @@
 @font-face {
-  body {
-	color: #8f8f8f;
-	font: 12px Tahoma, sans-serif;
-	background-color: #f8f8f8;
-	border-top: 5px solid #7e7e7e;
-	margin: 0;
-}
-input[type="text"] {
-	background-color: #f3f3f3;
-	border: 1px solid #e7e7e7;
-	height: 30px;
-	color: #b2b2b2;
-	padding: 0 10px;
-	vertical-align: top;
-}
-button {
-	color: #fff;
-	background-color: #29c5e6;
-	border: none;
-	height: 32px;
-	font-family: 'Oswald', sans-serif;
-}
-p {
-	margin: 20px 0;
-}
-#wrapper {
-	max-width: 960px;
-	margin: auto;
-}
-header {
-	padding: 20px 0;
-}
-form[name="search"] {
-	float: right;
-.parent {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
-}
+	
+ /* Rectangle 1 */
+position: absolute;
+width: 661px;
+height: 763px;
 
-.block {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-	#heading {
-	background: transparent url(../images/h1-bg.png);
-	margin: 30px 0;
-	padding-left: 20px;
-}
+background: #C4C4C4;
 
-h1 {
-	display: inline-block;
-	color: #7e7e7e;
-	font: 40px/40px 'Oswald', sans-serif;
-	background: url(../images/bg.png);
-	margin: 0;
-	padding: 0 10px;
-}
-nav a {
-	text-decoration: none;
-}
+/* Rectangle 2 */
+position: absolute;
+width: 500px;
+height: 61px;
 
-nav ul {
-	margin: 0;
-	padding: 0;
-}
+background: #FFFFFF;
+	
+/* Redux */
 
-nav li {
-	list-style-position: inside;
-	font: 14px 'Oswald', sans-serif;
-	padding: 10px;
-}
 
-.top-menu li {
-	display: inline-block;
-	padding: 10px 30px;
-	margin: 0;
-}
+position: absolute;
+width: 133px;
+height: 56px;
 
-.top-menu li.active {
-	background: #29c5e6;
-	color: #fff;
-}
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
 
-.top-menu a {
-	color: #b2b2b2;
-}
-}
+color: #000000;
+
+/* Rectangle 3 */
+position: absolute;
+width: 500px;
+height: 220px;
+
+background: #E0E0E0;
+	
+/* Rectangle 4 */
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 44px;
+
+background: #E3E3E3;
+border: 2px solid #000000;
+	
+/* Rectangle 5 */
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 44px;
+
+background: #E3E3E3;
+border: 2px solid #000000;
+	
+/* Rectangle 6 */
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 44px;
+
+background: #65CDF9;
+border: 2px solid #000000;
+	
+/* Rectangle 7 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 44px;
+
+background: #E3E3E3;
+border: 2px solid #000000;
+	
+/* Rectangle 8 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 44px;
+
+background: #E3E3E3;
+border: 2px solid #000000;
+	
+/* Redux */
+position: absolute;
+width: 83px;
+height: 35px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+position: absolute;
+width: 487px;
+height: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+/* Redux-actions */
+position: absolute;
+width: 487px;
+height: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+	
+/* React-redux */
+position: absolute;
+width: 487px;
+height: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+/* Redux-saga */
+position: absolute;
+width: 487px;
+height: 44px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+	
+/* Rectangle 9 */
+position: absolute;
+width: 500px;
+height: 304px;
+
+background: #E6E6E6;
+	
+/* Rectangle 10 */
+box-sizing: border-box;
+
+position: absolute;
+width: 503px;
+height: 101px;
+
+background: #E27BEB;
+border: 1px solid #000000;
+	
+/* Rectangle 11 */
+box-sizing: border-box;
+
+position: absolute;
+width: 503px;
+height: 101px;
+
+background: #E27BEB;
+border: 1px solid #000000;
+	
+/* Rectangle 12 */
+box-sizing: border-box;
+
+position: absolute;
+width: 503px;
+height: 101px;
+
+background: #E27BEB;
+border: 1px solid #000000;
+	
+/* Name: react Owner: facebook Stars: 145231 */
+position: absolute;
+width: 470px;
+height: 85px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+/* Name: vue Owner: vuejs Stars: 160897 */
+position: absolute;
+width: 470px;
+height: 85px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+/* Name: angular Owner: angular Stars: 59457 */
+position: absolute;
+width: 470px;
+height: 85px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+/* Vector 1 */
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+	
+/* Vector 5 */
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+
+/* Vector 8 */
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+	
+/* Vector 3 */
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Vector 7 */
+position: absolute;
+width: 42px;
+height: 38.5px;
+
+border: 4px solid #FF0000;
+transform: matrix(-1, 0, 0, 1, 0, 0);
