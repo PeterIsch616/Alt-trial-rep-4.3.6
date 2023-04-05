@@ -1,33 +1,13 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style>
-      html, body {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-    <script>
-      // This event handler is no longer used. But leaving for now to not break old clients
-      let messageHandler = (event) => {
-        let pluginIframeElement = document.getElementById("plugin-iframe")
-        if (pluginIframeElement && event.source === pluginIframeElement.contentWindow) {
-          parent.postMessage({ origin: event.origin, data: event.data }, window.location.origin)
-        }
-      }
-      window.addEventListener("message", messageHandler)
-    </script>
-  </head>
-  <body>
-  <div class="Rectangle 1">
-    <div class="block">
-    </div>
-</div>
-<div class="Rectangle 2">
-    <div class="block">
-    </div>
-</div>
-      
-      
-</body></html>
+<html>
+<head>
+</head>
+<body>
+    <table>
+<tr><th>текст заголовка</th><th>текст заголовка</th></tr> <!--ряд с ячейками заголовков-->
+<tr><td>данные</td><td>данные</td></tr> <!--ряд с ячейками тела таблицы-->
+</table>
+    
+</body>
+</html>
+
