@@ -327,3 +327,6 @@ td {
   font-weight: bold;
   text-align: center;
 }
+td {
+    border: 5px solid #CCCCCC;
+}
