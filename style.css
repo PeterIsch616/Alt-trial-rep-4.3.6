@@ -327,3 +327,11 @@ td {
   font-weight: bold;
   text-align: center;
 }
+const octokit = new Octokit({
+  auth: 'YOUR-TOKEN'
+})
+await octokit.request('GET /search/repositories', {
+  headers: {
+    'X-GitHub-Api-Version': '2022-11-28'
+  }
+})
