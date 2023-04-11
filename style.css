@@ -1,414 +1,82 @@
 @font-face {
-	
- /* Rectangle 1 */
-position: absolute;
-width: 661px;
-height: 763px;
-
-background: #C4C4C4;
-
-/* Rectangle 2 */
-position: absolute;
-width: 500px;
-height: 61px;
-
-background: #FFFFFF;
-	
-/* Redux */
-position: absolute;
-width: 133px;
-height: 56px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 56px;
-
-color: #000000;
-
-/* Rectangle 3 */
-position: absolute;
-width: 500px;
-height: 220px;
-
-background: #E0E0E0;
-	
-/* Rectangle 4 */
-box-sizing: border-box;
-
-position: absolute;
-width: 500px;
-height: 44px;
-
-background: #E3E3E3;
-border: 2px solid #000000;
-	
-/* Rectangle 5 */
-box-sizing: border-box;
-
-position: absolute;
-width: 500px;
-height: 44px;
-
-background: #E3E3E3;
-border: 2px solid #000000;
-	
-/* Rectangle 6 */
-box-sizing: border-box;
-
-position: absolute;
-width: 500px;
-height: 44px;
-
-background: #65CDF9;
-border: 2px solid #000000;
-	
-/* Rectangle 7 */
-box-sizing: border-box;
-
-position: absolute;
-width: 500px;
-height: 44px;
-
-background: #E3E3E3;
-border: 2px solid #000000;
-	
-/* Rectangle 8 */
-box-sizing: border-box;
-
-position: absolute;
-width: 500px;
-height: 44px;
-
-background: #E3E3E3;
-border: 2px solid #000000;
-	
-/* Redux */
-position: absolute;
-width: 83px;
-height: 35px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
-color: #000000;
-
-position: absolute;
-width: 487px;
-height: 44px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
-color: #000000;
-
-/* Redux-actions */
-position: absolute;
-width: 487px;
-height: 44px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
-color: #000000;
-	
-/* React-redux */
-position: absolute;
-width: 487px;
-height: 44px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
-color: #000000;
-
-/* Redux-saga */
-position: absolute;
-width: 487px;
-height: 44px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-
-color: #000000;
-	
-/* Rectangle 9 */
-position: absolute;
-width: 500px;
-height: 304px;
-
-background: #E6E6E6;
-	
-/* Rectangle 10 */
-box-sizing: border-box;
-
-position: absolute;
-width: 503px;
-height: 101px;
-
-background: #E27BEB;
-border: 1px solid #000000;
-	
-/* Rectangle 11 */
-box-sizing: border-box;
-
-position: absolute;
-width: 503px;
-height: 101px;
-
-background: #E27BEB;
-border: 1px solid #000000;
-	
-/* Rectangle 12 */
-box-sizing: border-box;
-
-position: absolute;
-width: 503px;
-height: 101px;
-
-background: #E27BEB;
-border: 1px solid #000000;
-	
-/* Name: react Owner: facebook Stars: 145231 */
-position: absolute;
-width: 470px;
-height: 85px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-/* Name: vue Owner: vuejs Stars: 160897 */
-position: absolute;
-width: 470px;
-height: 85px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-/* Name: angular Owner: angular Stars: 59457 */
-position: absolute;
-width: 470px;
-height: 85px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-/* Vector 1 */
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-	
-/* Vector 5 */
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-
-/* Vector 8 */
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-	
-/* Vector 3 */
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-/* Vector 7 */
-position: absolute;
-width: 42px;
-height: 38.5px;
-
-border: 4px solid #FF0000;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-	
-	table {
-   border: 1px solid grey;
-}
-/* границы ячеек первого ряда таблицы */
-th {
-   border: 1px solid grey;
-}
-/* границы ячеек тела таблицы */
-td {
-   border: 1px solid grey;
-}
-/* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
-table {
-   width: 100%;
-}
-/* задаст фиксированную ширину для таблицы */
-table {
-   width: 600px;
+    font-family: Roboto;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
 }
 
 body {
-  margin: 0;
-  background: #F4F1F8;
+    background-color: #C4C4C4;
 }
-table {
-  border-collapse: collapse; 
-  line-height: 1.1;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
-  color: #0C213B;
+
+.dropdown {
+    margin: 62px 84px 0px 77px;
+    width: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    box-sizing: border-box;
 }
-caption {
-  font-family: annabelle, cursive;
-  font-weight: bold;
-  font-size: 2em;
-  padding: 10px; 
-  color: #F3CD26;
-  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
- }
-caption:before, caption:after {
-  content: "\274B";
-  color: #A9E2CC;
-  margin: 0 10px;
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 326px;
 }
-th {
-  padding: 10px; 
-  border: 1px solid #A9E2CC;
+
+.dropdown input {
+    border: none;
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
 }
-td {
-  font-size: 0.8em;
-  padding: 5px 7px;
-  border: 1px solid #A9E2CC;
+
+.dropdown-content {
+    width: 100%;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 35px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
 }
-.first {
-  font-size: 1em;
-  font-weight: bold;
-  text-align: center;
+
+.dropdown-content:hover {
+    background-color: #65CDF9;
+    cursor: pointer;
 }
-const octokit = new Octokit({
-  auth: 'YOUR-TOKEN'
-})
-await octokit.request('GET /search/repositories', {
-  headers: {
-    'X-GitHub-Api-Version': '2022-11-28'
-  }
-})
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+
+.chosens {
+    display: flex;
+    flex-direction: column;
+    top: 326px;
+    width: 503px;
 }
-body{
-  background: #644bff;
-  padding: 0 20px;
+
+.chosen {
+    display: flex;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 8px 16px;
+    line-height: 28px;
+    border: 1px solid #000;
+    background-color: #E27BEB;
 }
-::selection{
-  color: #fff;
-  background: #664AFF;
-}
-.wrapper{
-  max-width: 450px;
-  margin: 150px auto;
-}
-.wrapper .search-input{
-  background: #fff;
-  width: 100%;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
-}
-.search-input input{
-  height: 55px;
-  width: 100%;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  padding: 0 60px 0 20px;
-  font-size: 18px;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-}
-.search-input.active input{
-  border-radius: 5px 5px 0 0;
-}
-.search-input .autocom-box{
-  padding: 0;
-  opacity: 0;
-  pointer-events: none;
-  max-height: 280px;
-  overflow-y: auto;
-}
-.search-input.active .autocom-box{
-  padding: 10px 8px;
-  opacity: 1;
-  pointer-events: auto;
-}
-.autocom-box li{
-  list-style: none;
-  padding: 8px 12px;
-  display: none;
-  width: 100%;
-  cursor: default;
-  border-radius: 3px;
-}
-.search-input.active .autocom-box li{
-  display: block;
-}
-.autocom-box li:hover{
-  background: #efefef;
-}
-.search-input .icon{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  height: 55px;
-  width: 55px;
-  text-align: center;
-  line-height: 55px;
-  font-size: 20px;
-  color: #644bff;
-  cursor: pointer;
+
+.btn-close {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-image: url("img/Cross.png");
+    background-color: transparent;
+    background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 42px;
+    height: 38.5px;
+    right: 17px;
 }
