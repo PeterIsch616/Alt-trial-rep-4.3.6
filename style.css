@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Roboto;
-    src: url("fonts/Redwater-font/Redwater-font.ttf");
+    font-family: Redwater;
+    src: url("fonts/Redwater-font/Redwater-font.otf");
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 .dropdown {
     margin: 62px 84px 0px 77px;
     width: 500px;
-    font-family: Roboto;
+    font-family: Redwater;
     font-style: normal;
     font-weight: normal;
     color: #000;
